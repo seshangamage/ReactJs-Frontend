@@ -1,0 +1,14 @@
+{
+  "brand": "Apple",
+  "model": "MacBook Pro Test",
+  "price": 1999.99,
+  "processor": "M2 Pro",
+  "ram": 16,
+  "storage": 512,
+  "gpu": "M2 Pro GPU",
+  "operatingSystem": "macOS",
+  "screenSize": 14.2,
+  "description": "Test laptop from API",
+  "isAvailable": true,
+  "stockQuantity": 5
+}
