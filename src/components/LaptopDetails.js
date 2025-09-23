@@ -12,7 +12,7 @@ const LaptopDetails = () => {
 
   useEffect(() => {
     fetchLaptopDetails();
-  }, [id]);
+  }, [id]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const fetchLaptopDetails = async () => {
     try {

@@ -29,7 +29,7 @@ const LaptopForm = () => {
     if (isEditing) {
       fetchLaptopData();
     }
-  }, [id, isEditing]);
+  }, [id, isEditing]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const fetchLaptopData = async () => {
     try {
